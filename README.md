@@ -5,6 +5,7 @@ Authors = Yao Zhang, Jun Tang, Ziqiang Cao, and Han Chen
 Journal = Information Fusion.
 
 Abstract :
+<p align="center">
 In multi-label feature selection (MLFS), pseudo-label learning techniques are often employed to mitigate the issue that the binary nature of ground-truth labels is incompatible with linear mappings. Existing studies have demonstrated
 that manifold learning and distance discrepancy are powerful facilities to well constrain pseudo-labels. However, there are still two weaknesses for the existing manifold learning-based and distance discrepancy-based approaches.
 Firstly, the line of manifold learning uses similarity to constrain the pseudo-labels and instances or ground-truth labels to have the same manifold structure between them, but overlooks the detailed constraints on
@@ -12,7 +13,7 @@ each pseudo-label vector. Secondly, the line of distance discrepancy does not co
 label manifold to jointly constrain pseudo-labels. Furthermore, to overcome the limitations of traditional fixed graph regularization, We introduce feature manifold and dynamic manifold based on dynamic similarity graphs of
 low-dimensional pseudo-labels to thoroughly constrain the feature weights. Consequently, a sparse multi-label feature selection via pseudo-label learning and dynamic graph constraints (SPLDG) is proposed. An effective convergence
 scheme with alternating iterations is designed to optimize SPLDG. Finally, the experimental results on all 13 multi-label datasets verify that SPLDG can effectively solve the MLFS problem.
-
+</p>
 If you find this implementation helpful in your work, please consider citing both the original paper and our related research on multi-label feature selection:
 
 ## Original Paper:
